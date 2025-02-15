@@ -1,7 +1,7 @@
 # syslib
 **# Library Systems Class**
 
-Helpful CMD Line
+Useful cmd line prompts
 ---
 1. *ctrl+C*
      exits program  
