@@ -10,3 +10,7 @@ Other tips
 ---
 1. customize Google Cloud shell terminal (font size, colors, etc.)
 2. Full screen terminal > half screen
+
+Links
+---
+[BCCLS Vega Discover Catalog](https://search.bccls.org.com)
