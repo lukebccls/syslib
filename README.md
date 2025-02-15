@@ -8,5 +8,5 @@ Useful cmd line prompts
 
 Other tips
 ---
-1. customize Google Cloud shell terminal
+1. customize Google Cloud shell terminal (font size, colors, etc.)
 2. Full screen terminal > half screen
