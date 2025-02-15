@@ -13,4 +13,4 @@ Other tips
 
 Links
 ---
-[BCCLS Vega Discover Catalog](https://search.bccls.org.com)
+[BCCLS Vega Discover Catalog](https://search.bccls.org)
