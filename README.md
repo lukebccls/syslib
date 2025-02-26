@@ -56,6 +56,10 @@ Journal Entry 3: Module 2 - Project Management and CLI Intro - Learn the CLI Lec
    - makes things easier at first, at the expense of truly learning the file system
    - Linux uses tree like architecture for the file system
    - paths = where in the tree a folder exists
+   - press tab to jump
+   - practice TYPING commands vs copying/pasting
+   - use SUDO command for running commands where ADMIN permissions are required
+   - man = short hand for manual to read more about a command
 
 Journal Entry 4: Module 3 - Using the Nano Text Editor Lecture
 ---
