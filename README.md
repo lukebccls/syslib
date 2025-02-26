@@ -19,7 +19,13 @@ Journal Entry 2: Module 2 - Project Management and CLI Intro - Week 2 Lecture
   3. install the gcloud CLI or connect to CLI via VM
   4. enable compute
   5. create an instance
-  6. Micro-size, Ubuntu OS v. 22.04    
+  6. Micro-size, Ubuntu OS v. 22.04    \
+  7. Will see VM listed once it is setup with internal and external IPs
+
+- Connect to the VM (using the documentation)
+- Update Ubuntu OS
+-     sudo apt update
+- 
 
 
 # syslib
