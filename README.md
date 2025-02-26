@@ -11,13 +11,15 @@ Journal Entry 1: Module 1 - Introduction Lecture
 Journal Entry 2: Module 2 - Project Management and CLI Intro - Week 2 Lecture
 ---
 - Attention to detail is very important throughout the course and in this work - one slight spelling error results in a command or line of code not working at all
-- Google Cloud for virtual machine (VM)
-- Use personal Google account and setup billing
-- setting up a VM
+
+- Steps to setup Google Cloud virtual machine (VM)
+  1. Use personal Google account and setup billing
 -      https://cloud.google.com
-- create project, name it and switch to the new dashboard
-- install the gcloud CLI or connect to CLI via VM
--        
+  2. create project, name it and switch to the new dashboard
+  3. install the gcloud CLI or connect to CLI via VM
+  4. enable compute
+  5. create an instance
+  6. Micro-size, Ubuntu OS v. 22.04    
 
 
 # syslib
