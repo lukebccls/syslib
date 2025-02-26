@@ -77,10 +77,6 @@ Journal Entry 4: Module 3 - Using the Nano Text Editor Lecture
 - can change colors and make additional customizations
 - ed/vi/vim/emacs are not user friendly, but are powerful and do have a dedicated following
 
-
-
-
-
 Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown Lecture
 ---
 - Documentation is very important - it is the foundation of sharing knowledge and communicating
@@ -97,7 +93,7 @@ Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown Lecture
  - use 2FA
  - create repository
  - add README
- - 
+ - using markdown to format text
 
 
 Useful cmd line prompts
@@ -113,3 +109,4 @@ Other tips
 Links
 ---
 [BCCLS Vega Discover Catalog](https://search.bccls.org)
+[TLDR GitHub Page](https://github.com/tldr-pages/tldr)
