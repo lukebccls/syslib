@@ -26,9 +26,9 @@ Journal Entry 2: Module 2 - Project Management and CLI Intro - Week 2 Lecture: G
 - Update Ubuntu OS
 -     sudo apt update
 - BEST PRACTICES keep the OS / machine up to date
-  
----
+
 Journal Entry 3: Module 2 - Project Management and CLI Intro - Week 2 Lecture: Learn the CLI
+---
 - 2 ways we interact with computers (GUI = graphical user interface and non-GUI = command line interface (CLU)
 - CLI = greater control b/c text based
 -   due to more specific commands
