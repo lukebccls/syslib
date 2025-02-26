@@ -94,6 +94,18 @@ Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown Lecture
  - create repository
  - add README
  - using markdown to format text
+ - file names is important
+   1. avoid spaces
+   2. keep it simple
+   3. can use dashes
+  
+  -Setup Git on VM
+   1. username
+   2. github user
+   3. email
+   4. verify w/ gitcofig
+   5. generate SSH key on VM
+   6. Then create SSH key in GitHub account settings
 
 
 Useful cmd line prompts
