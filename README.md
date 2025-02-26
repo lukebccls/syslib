@@ -1,4 +1,4 @@
-Journal Entry 1: Module 1 - Introduction
+Journal Entry 1: Module 1 - Introduction Lecture
 ---
 - What is systems librarniship?
 - a 45 year time period returns 131 results for 'systems librianship' - making it a very understudied area
@@ -8,7 +8,8 @@ Journal Entry 1: Module 1 - Introduction
 - self-education is important and this course should help foster that
 - cloud computing is becoming more popular
 
-Journal Entry 2: 
+Journal Entry 2: Module 2 - Project Management and CLI Intro - Week 2 Lecture
+---
 
 # syslib
 **# Library Systems Class**
