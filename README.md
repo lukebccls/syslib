@@ -1,5 +1,5 @@
 Journal Entry 1: Module 1 - Introduction
-
+---
 - What is systems librarniship?
 - a 45 year time period returns 131 results for 'systems librianship' - making it a very understudied area
 - some say it should be IT experts who learn about libraries
