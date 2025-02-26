@@ -125,7 +125,7 @@ Journal Entry 6: Module 4 - Searching with Grep
   5. Man Grep = gets the manual
   6. use -i as it removes case sensitivity
 
-Journal Entry 7: Module 4 - Practice searching with Grep
+Journal Entry 7: Module 4 - Practice searching with Grep Lecture
 ---
 - Scopus (a bib. database) we will use for practice
 1. Go to Scopus
