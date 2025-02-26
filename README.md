@@ -63,16 +63,42 @@ Journal Entry 3: Module 2 - Project Management and CLI Intro - Learn the CLI Lec
 
 Journal Entry 4: Module 3 - Using the Nano Text Editor Lecture
 ---
-- Nano
+- to save and edit files you need a text editor
+- programmers typically use a graphical text editor to write code
+- gui based text editor isn't always the best
+- can use a command line based text editor
+- plain text file ONLY contains plain text
 
-Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown
+- Nano is a popular text editor
+- Nano is modeless - making it user friendly - means Nano can be made to enter and manipulate text without entering different modes
+- Nano is hard/tricky to learn because some ke-combos are different: eg. copy isn't ctrl-c
+-     ctrl-u
+- Tilde & Micro are alternative cmd text editors with common shortcuts so those are options to use as well
+- can change colors and make additional customizations
+- ed/vi/vim/emacs are not user friendly, but are powerful and do have a dedicated following
+
+
+
+
+
+Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown Lecture
 ---
-- Github
+- Documentation is very important - it is the foundation of sharing knowledge and communicating
 
+- Git and GitHub
+   1. Version control
+   2. Collaboration
 
+- Markdown
+  1. Documentation
+  2. Markup language w/ simple syntax
 
-# syslib
-**# Library Systems Class**
+ - create GitHub account
+ - use 2FA
+ - create repository
+ - add README
+ - 
+
 
 Useful cmd line prompts
 ---
@@ -81,8 +107,8 @@ Useful cmd line prompts
 
 Other tips
 ---
-1. customize Google Cloud shell terminal (font size, colors, etc.)
-2. Full screen terminal > half screen
+1. TAB speeds up typing commands
+2. TLDR program that shows the manual of a specific application 
 
 Links
 ---
