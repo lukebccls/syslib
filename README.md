@@ -107,16 +107,48 @@ Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown Lecture
    5. generate SSH key on VM
    6. Then create SSH key in GitHub account settings
 
+Should committ from the CMD otherwise need to GITPULL for everything to sync
+
+Journal Entry 6: Module 4 - Searching with Grep
+---
+*run sudo apt update*
+- Always do this when logging into the VM each time
+- GUI exist for some tasks, but many times in this profession we will be using the cmd line, so grep command is really important
+- Grep helps search the contents of text files
+- matches patterns
+- returns the whole string / line
+
+  1. create file operating systems.csv
+  2. use grep to search the file
+  3. will return the whole line for Chrome... not just "Chrome"
+  4. By default Grep is case sensitive
+  5. Man Grep = gets the manual
+  6. use -i as it removes case sensitivity
+
+Journal Entry 7: Module 4 - Practice searching with Grep
+---
+- Scopus (a bib. database) we will use for practice
+1. Go to Scopus
+2. Enter a search
+3. Export as 'BibTex' file
+4. Try for 100 documents
+5. upload file to VM
+6. sort command
+7. uniq (de-dup function)
+8. uniq -c (gives a count)
 
 Useful cmd line prompts
 ---
-1. *ctrl+C*
-     exits program  
+1. *ctrl+C* - exits program
+2. *whoami* shows logged in user
+3. *locate file*
+4. *man command*
 
 Other tips
 ---
 1. TAB speeds up typing commands
-2. TLDR program that shows the manual of a specific application 
+2. TLDR program that shows the manual of a specific application
+3. Grep is like ctrl F
 
 Links
 ---
