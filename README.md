@@ -14,9 +14,9 @@ Journal Entry 2: Module 2 - Project Management and CLI Intro - Week 2 Lecture
 - Google Cloud for virtual machine (VM)
 - Use personal Google account and setup billing
 - setting up a VM
--      cloud.google.com
--      create project, name it and switch to the new dashboard
--      install the gcloud CLI or connect to CLI via VM
+-      https://cloud.google.com
+- create project, name it and switch to the new dashboard
+- install the gcloud CLI or connect to CLI via VM
 -        
 
 
