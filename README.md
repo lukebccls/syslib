@@ -27,7 +27,7 @@ Journal Entry 2: Module 2 - Project Management and CLI Intro - Week 2 Lecture: G
 -     sudo apt update
 - BEST PRACTICES keep the OS / machine up to date
 
-Journal Entry 3: Module 2 - Project Management and CLI Intro - Week 2 Lecture: Learn the CLI
+Journal Entry 3: Module 2 - Project Management and CLI Intro - Learn the CLI Lecture
 ---
 - 2 ways we interact with computers (GUI = graphical user interface and non-GUI = command line interface (CLU)
 - CLI = greater control b/c text based
@@ -57,9 +57,13 @@ Journal Entry 3: Module 2 - Project Management and CLI Intro - Week 2 Lecture: L
    - Linux uses tree like architecture for the file system
    - paths = where in the tree a folder exists
 
+Journal Entry 4: Module 3 - Using the Nano Text Editor Lecture
+---
+- Nano
 
-
-
+Journal Entry 5: Module 3 - Documenting with Git, GitHub, and Markdown
+---
+- Github
 
 
 
