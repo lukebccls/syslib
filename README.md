@@ -137,6 +137,35 @@ Journal Entry 7: Module 4 - Practice searching with Grep Lecture
 7. uniq (de-dup function)
 8. uniq -c (gives a count)
 
+Journal Entry 8: Managing Software Lecture
+---
+- apt command = advanced package tool
+- sudo command needed to install software
+-     sudo = super user do
+- sudo allows you to run commands as the root user **IF** your user is added to the "sudo group", users in this group are allowed to perform commands using root permissions read/write/execute
+- 
+
+
+Journal Entry 9: Library Search
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Useful cmd line prompts
 ---
 1. *ctrl+C* - exits program
