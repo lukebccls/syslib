@@ -141,14 +141,33 @@ Journal Entry 8: Managing Software Lecture
 ---
 - apt command = advanced package tool
 - sudo command needed to install software
--     sudo = super user do
+- sudo = super user do or substitute user do
 - sudo allows you to run commands as the root user **IF** your user is added to the "sudo group", users in this group are allowed to perform commands using root permissions read/write/execute
-- 
+- be careful running sudo commands as you can make inadvertant changes to your system / files
+-     sudo apt update
+-     sudo apt upgrade
+- need name of the package to install software - sometimes have to search for the name of the package
+- man (manual) pages are useful
+- some are complex so it helps to use the TLDR app
 
 
 Journal Entry 9: Library Search
 ---
+- **yaz** client
+- **Z39.50** is the standard protocal for connecting with ILS
+- it is a very old protocol
+- started before the internet and maintained by the library of congress
+- created to transfer bib. info between networks
+- yaz client allows us to interact with different libraries from the command line
+- a big part of library science history
 
+- first need to connect to a library database
+- Z> is the home line for yaz
+- to query the given catalog yaz is connected to
+  1.     find @and @attr 1-21 "subject"
+  2. will return the # of records found
+  3.     show
+  4. will show the whole bib. record
 
 
 
