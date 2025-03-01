@@ -164,9 +164,9 @@ Journal Entry 9: Library Search
 - first need to connect to a library database
 - Z> is the home line for yaz
 - to query the given catalog yaz is connected to
-  1.     find @and @attr 1-21 "subject"
+-      find @and @attr 1-21 "subject"
   2. will return the # of records found
-  3.     show
+  3. show command
   4. will show the whole bib. record
 
 
