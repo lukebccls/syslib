@@ -186,13 +186,13 @@ PHP/Python/Perl - Server-side Programmming
 ---
 The LAMP stack is a popular open source group of software. When 'stacked' together it can be used for web development. The operating sytem is Linux, Apache is the server, mySQL is the database and PHP is the server side scripting langauge. It provides a simple and free way to build great websites. There is a large community who uses this stack and mantains it as a leader in open source software.
 
-*<ins>Linux</ins> is an open source operating system, based on unix, that is stable, secure and flexible. It serves as the foundation for many computers and servers. It provides a command line interface that is widely used.
+*  <ins>Linux</ins> is an open source operating system, based on unix, that is stable, secure and flexible. It serves as the foundation for many computers and servers. It provides a command line interface that is widely used.
 
-*<ins>Apache</ins> is an open-source HTTP webserver software and it gets requests from web browsers (Chrome, FireFox, etc.) and send back the requested web pages.
+*  <ins>Apache</ins> is an open-source HTTP webserver software and it gets requests from web browsers (Chrome, FireFox, etc.) and send back the requested web pages.
 
-*<ins>mySQL</ins> is an open-source realational database. There are two types of databases realational databases (organizes data into tables with rows and columns) and a non-relational database (typically based on documents). Users can interact with a mySQL database using SQL or structured query language, MySQL is fast, realiable and scalable.
+*  <ins>mySQL</ins> is an open-source realational database. There are two types of databases realational databases (organizes data into tables with rows and columns) and a non-relational database (typically based on documents). Users can interact with a mySQL database using SQL or structured query language, MySQL is fast, realiable and scalable.
 
-*<ins>PHP</ins> is a server-side programming language that is installed on a server such as Apache. The web server processes PHP and sends it as HTML to the browser. PHP is easy to use, flexible, and being open-source, has a great community supporting it.
+*  <ins>PHP</ins> is a server-side programming language that is installed on a server such as Apache. The web server processes PHP and sends it as HTML to the browser. PHP is easy to use, flexible, and being open-source, has a great community supporting it.
 
 Journal Entry 10: Installing Apache Web Server
 --
