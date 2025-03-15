@@ -170,7 +170,12 @@ Journal Entry 9: Library Search
   4. will show the whole bib. record
 
 
-LAMP STACK - (Linux OS, Apache Server, mySQL Database, PHP server-side language)
+LAMP STACK
+---
+Linux - Operating System
+Apache - Web Server
+mySQL - Database
+PHP or Python or Perl - Server-side Programmming
 
 ![LAMP](https://lh3.googleusercontent.com/zwledndkiqkNlB3zhRw6EA4RzRV7SofUz-5N2YyNetqAg3CsYOuir4UBjz8tQbOtuaDCMaGo0tGl=s2000-w2000)
 
