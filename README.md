@@ -175,7 +175,7 @@ LAMP STACK
 Linux - Operating System
 Apache - Web Server
 mySQL - Database
-PHP or Python or Perl - Server-side Programmming
+PHP/Python/Perl - Server-side Programmming
 
 ![LAMP](https://lh3.googleusercontent.com/zwledndkiqkNlB3zhRw6EA4RzRV7SofUz-5N2YyNetqAg3CsYOuir4UBjz8tQbOtuaDCMaGo0tGl=s2000-w2000)
 
