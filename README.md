@@ -172,7 +172,7 @@ Journal Entry 9: Library Search
 
 LAMP STACK - (Linux OS, Apache Server, mySQL Database, PHP server-side language)
 
-![LAMP Stack]([https://lh3.googleusercontent.com/zwledndkiqkNlB3zhRw6EA4RzRV7SofUz-5N2YyNetqAg3CsYOuir4UBjz8tQbOtuaDCMaGo0tGl=s2000-w2000)
+![LAMP](https://lh3.googleusercontent.com/zwledndkiqkNlB3zhRw6EA4RzRV7SofUz-5N2YyNetqAg3CsYOuir4UBjz8tQbOtuaDCMaGo0tGl=s2000-w2000)
 
 ---
 The LAMP stack is a popular open source group of software. When 'stacked' together it can be used for web development. The operating sytem is Linux, Apache is the server, mySQL is the database and PHP is the server side scripting langauge. It provides a simple and free way to build great websites. There is a large community who uses this stack and mantains it as a leader in open source software.
