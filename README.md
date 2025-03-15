@@ -202,10 +202,9 @@ Journal Entry 10: Installing Apache Web Server
 6. Next verify that Apache is running:
 7.     sudo systemctl status apache2
 8. You will want to get a return of "Apache2 is running"
-9. Next, you can create a webpage in:
-10.     var/www/html/
-11. Create an .index.html file and test it out in the browser
-13.     http://publicIP/index.html
+9. Next, ine following directory ''' var/www/html/ '''
+10. Create an .index.html file and test it out in the browser
+13.     http://<publicIP>/index.html
 Journal Entry 11: Installing PHP
 --
 
