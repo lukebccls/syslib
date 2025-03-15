@@ -170,6 +170,10 @@ Journal Entry 9: Library Search
   4. will show the whole bib. record
 
 
+LAMP STACK - (Linux OS, Apache Server, mySQL Database, PHP client/server)
+---
+Journal Entry 10: Installing Apache Web Server
+
 
 
 
