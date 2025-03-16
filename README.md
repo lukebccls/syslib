@@ -237,6 +237,88 @@ Journal Entry 11: Installing PHP
 
 Journal Entry 12: Installing mySQL
 --
+1. mySQL is an open source relational database that works with Apache web server and PHP
+2. First, per usual, make sure the VM is fully updated
+3.       sudo apt update
+         sudo apt upgrade
+         sudo apt autoremove
+         sudo apt clean
+4. Next install mySQL (note when we install mySQL it will always install the latest, most secure version):
+5.     sudo apt install mysql-server
+6. Confirm the version number:
+7.     mysql --version
+8. Next check the status:
+9.     systemctl status mysql 
+10. Once we confirm SQL is running correctly, we want to set baseline securtity settings by running a script that will make some baseline security settings and confgure things the way we want:
+11.     sudo mysql_secure_installation
+12. Make the following changes to the config:
+13.     Validate passwords: Y
+        Password validation policy: 0 (zero) for LOW
+        Remove anonymous users: Y
+        Disallow root login remotely: Y
+        Remove test database and access to it: Y
+        Reload privilege tables now: Y
+14. Next login
+15.     sudo mysql -u root
+16. View the databases that are already installed with the following command
+17.     mysql> show databases;
+18. Note: when in SQL the command prompt will always lead with <ins>mysql></ins>
+19. Create a user account and replace 'opacuser' with your new user and 'xxx' with the password (note: <ins>the password needs to meet some minimum complexity requirements even though we set the security settings to a low level in the configuration</ins>)
+20. Next we create a new databse called 'opacdb' for our catalog and give the user we just created edit rights:
+21.     mysql> create database opacdb default character set utf8mb4 collate utf8mb4_unicode_ci;
+        mysql> show databases;
+        mysql> grant all privileges on opacdb.* to 'opacuser'@'localhost' with grant option;
+22. In this config we can limit insert/updatecreate/delete etc. if we wanted to... these are all very dangerous permissions as they can alter the database entirely. Typically read only access is safest.
+23. Next log out of SQL with this command: /q and log back in as the user we created
+24. First we <ins>alter the config file to make the prompt for the client more informative: Open this file in Nano:
+25.     nano .bashrc
+26. Add to the end:
+27.     export MYSQL_PS1="[\d]> "
+28. Next we are going to login into SQL and create a table in the test db 'opacdb'
+29.     mysql> show databases;
+        mysql> use opacdb;
+30. When we create this table assign a primary key that acts as the unique identifier and how many characters each row can be etc.
+31.     mysql> create table books (
+        id int unsigned not null auto_increment,
+        author varchar(150) not null,
+        title varchar(150) not null,
+        copyright year(4) not null,
+        primary key (ID) );
+32. Next add some data to the tables with the following command and edit the fields with the chosen books:
+33.     mysql> insert into books (author, title, copyright) values
+        ('author', 'title', 'pub. date');
+34. Next we ran a bunch of SQL queries to view the data we just populated into the tabele as well as updated/inserted/deleted to practice
+35. <ins>Next we will complete the connection between mySQL and PHP and make sure they are working properly.</ins>
+36.       sudo apt install php-mysql php-mysqli
+37. Then restart Apache and mySQL
+38. Next we need to authenticate with PHP so SQL and PHP can connect and interact with eachother
+39.       cd /var/www
+          sudo touch login.php
+          sudo chmod 640 login.php
+          sudo chown :www-data login.php
+          ls -l login.php
+          sudo nano login.php
+40. The above creates a login file and the below code in the file... provides the authentication credentials:
+41.       <?php // login.php
+          $db_hostname = "localhost";
+          $db_database = "opacdb";
+          $db_username = "replace with ourt SQL user";
+          $db_password = "replace with thw SQL user's pw"; ?>
+42. Next we added code that returns queries from our opac db to our index.php file!
+43. <ins>Now SQL and PHP can interact!</ins>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
