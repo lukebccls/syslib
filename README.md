@@ -178,7 +178,7 @@ Apache - Web Server
 
 mySQL - Database  
 
-PHP/Python/Perl - Server-side Programmming  
+PHP/Python/Perl - Server-side Programmming  (in this class we are using PHP, but Python and Perl could be used as well)
 
 
 ![LAMP](https://lh3.googleusercontent.com/zwledndkiqkNlB3zhRw6EA4RzRV7SofUz-5N2YyNetqAg3CsYOuir4UBjz8tQbOtuaDCMaGo0tGl=s2000-w2000)
@@ -190,7 +190,7 @@ The LAMP stack is a popular open source group of software. When 'stacked' togeth
 
 *  <ins>Apache</ins> is an open-source HTTP webserver software and it gets requests from web browsers (Chrome, FireFox, etc.) and send back the requested web pages.
 
-*  <ins>mySQL</ins> is an open-source realational database. There are two types of databases realational databases (organizes data into tables with rows and columns) and a non-relational database (typically based on documents). Users can interact with a mySQL database using SQL or structured query language, MySQL is fast, realiable and scalable.
+*  <ins>mySQL</ins> is an open-source relational database. There are two types of databases relational databases (organizes data into tables with rows and columns) and a non-relational database (typically based on documents). Users can interact with a mySQL database using SQL or structured query language, MySQL is fast, realiable and scalable.
 
 *  <ins>PHP</ins> is a server-side programming language that is installed on a server such as Apache. The web server processes PHP and sends it as HTML to the browser. PHP is easy to use, flexible, and being open-source, has a great community supporting it.
 
