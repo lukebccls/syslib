@@ -178,7 +178,7 @@ Apache - Web Server
 
 mySQL - Database  
 
-PHP/Python/Perl - Server-side Programmming  (in this class we are using PHP, but Python and Perl could be used as well)
+PHP - Server-side Programmming
 
 
 ![LAMP](https://lh3.googleusercontent.com/zwledndkiqkNlB3zhRw6EA4RzRV7SofUz-5N2YyNetqAg3CsYOuir4UBjz8tQbOtuaDCMaGo0tGl=s2000-w2000)
@@ -210,13 +210,29 @@ Journal Entry 10: Installing Apache Web Server
     
 Journal Entry 11: Installing PHP
 --
-1. Use the following command to install PHP and restart Apache2
-2.     sudo apt install php libapache2-mod-php
-3.     sudo systemctl restart apache2
-4. Use the -v command to check the version of PHP
-5.     php -v
-6. Check the status of Apache after the reboot and PHP install
-7.     systemctl status apache2
+1. Before getting started, as always, update apps/OS
+2. Use the following command to install PHP and restart Apache2
+3.     sudo apt install php libapache2-mod-php
+4.     sudo systemctl restart apache2
+5. Use the -v command to check the version of PHP
+6.     php -v
+7. Checking the version is also <ins>verifying</ins> PHP was installed correctly
+8. Check the status of Apache after the reboot and PHP install
+9.     systemctl status apache2
+10. This verifies Apache and PHP are working well together
+11. Next, make a config change so that the website defaults to index.php verus index.html
+12. Every website root domain name resolves to /index.html automatically
+13.       cd /etc/apache2/mods-enabled/
+          sudo cp dir.conf dir.conf.bak
+          sudo nano dir.conf
+14. Change this line so index.php is first in line at the start:
+15.       DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+16. Now that the configuation change was made test it with the following:
+17.       apachectl configtest
+18. Want to get a return of <ins>syntax OK</ins>
+19. Next created a index.php file that outputs the OS and Webbrowser the client is using when visiting the public IP
+20. Testing this in Chrome shows everytihng works OK:
+21.       http://34.47.36.7/index.php
 
 
 Journal Entry 12: Installing mySQL
