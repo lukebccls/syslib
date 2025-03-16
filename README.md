@@ -202,11 +202,22 @@ Journal Entry 10: Installing Apache Web Server
 6. Next verify that Apache is running:
 7.     sudo systemctl status apache2
 8. You will want to get a return of "Apache2 is running"
-9. Next, in the following directory 'var/www/html/'
-10. Create an .index.html file and test it out in the browser
+9. Next, in the following directory
+10.     var/www/html/
+11. Create an .index.html file and test it out in the browser
 13.     http://<publicIP>/index.html
+14. Make sure your firewall rules allow all http traffic
+    
 Journal Entry 11: Installing PHP
 --
+1. Use the following command to install PHP and restart Apache2
+2.     sudo apt install php libapache2-mod-php
+3.     sudo systemctl restart apache2
+4. Use the -v command to check the version of PHP
+5.     php -v
+6. Check the status of Apache after the reboot and PHP install
+7.     systemctl status apache2
+
 
 Journal Entry 12: Installing mySQL
 --
