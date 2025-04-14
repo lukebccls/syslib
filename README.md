@@ -1,4 +1,4 @@
-[Go to WordPress Project](#Wordpress Project)
+[Go to WordPress Project](#Wordpress-Project)
 
 
 Journal Entry 1: Module 1 - Introduction Lecture
