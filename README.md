@@ -311,6 +311,8 @@ Journal Entry 12: Installing mySQL
 43. <ins>Now SQL and PHP can interact!</ins>
 
 ## WordPress Project
+1. Wordpress background
+2. 
 
 
 
