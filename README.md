@@ -1,3 +1,6 @@
+[Go to WordPress Project](#Wordpress Project)
+
+
 Journal Entry 1: Module 1 - Introduction Lecture
 ---
 - What is systems librarniship?
@@ -307,7 +310,7 @@ Journal Entry 12: Installing mySQL
 42. Next we added code that returns queries from our opac db to our index.php file!
 43. <ins>Now SQL and PHP can interact!</ins>
 
-
+## WordPress Project
 
 
 
