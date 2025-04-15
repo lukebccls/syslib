@@ -349,9 +349,9 @@ Journal Entry 12: Installing mySQL
 ## Documentation of OPAC and Cataloging Module
 
 1. Database management / SQL is important foundation needed to build an OPAC and a cataloging module
-- Using 'insert'commands can update tables
-- Querying via 'SELECT', 'JOIN', 'WHERE', 'ORDER_BY', 'GROUP_BY' can manipulate the data and retrieve it organized in specific ways
- - The 'JOIN' command is especially important since a Database will generally have many tables
+- Using '''INSERT''' commands can update tables
+- Querying via '''SELECT, JOIN, WHERE, ORDER_BY, GROUP_BY''' can manipulate the data and retrieve it organized in specific ways
+ - The '''JOIN''' command is especially important since a Database will generally have many tables
 
 
 
