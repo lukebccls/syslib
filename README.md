@@ -348,21 +348,21 @@ Journal Entry 12: Installing mySQL
 
 ## Documentation of OPAC and Cataloging Module
 
-1. <B>Database management / SQL</B>
+1. **Database management / SQL**
 
 - Understanding SQL and how a relational database works is an important foundation needed to build an OPAC and a cataloging module. All the data that catalogers add to the OPAC needs to be in a database. 
  - Using ```INSERT``` commands can update tables in the database when catalogers add new records to the collection - this will be used to update the table in the database using PHP
  - Querying via ```SELECT, JOIN, WHERE, ORDER_BY, GROUP_BY``` can manipulate the data and retrieve it organized in specific ways - this will determine the output and how it looks for patrons using the OPAC
  - The ```JOIN``` command is especially important since a database will generally have many tables
 
-2. <B>Creating an OPAC</B>
+2. **Creating an OPAC**
 
 - As noted above, the database is the core of any OPAC. PHP embeded in CSS/HTML can enter information into the the database and also retreive information
  - An HTML form is where a user can enter information on the webpage (their search criteria)
  - PHP Search script is where the results will be returned based on what the user enters
  - This is essentially running a SQL query on demand and returning data from the tables on the Database that is organized in a specific way
 
-2. <B>Creating a Cataloging Module</B>
+2. **Creating a Cataloging Module**
 - The cataloging module is the other side of the coin from the OPAC
 - For an ILS to function it needs 2 things:
    1. Cataloging to enter information into the database
