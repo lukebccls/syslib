@@ -383,7 +383,7 @@ Journal Entry 12: Installing mySQL
       AuthName "Authorization Required"
       AuthUserFile /etc/apache2/.htpasswd
       Require valid-user
-
+- We can then change ownership and with ```chown``` and ```chmod``` commands
 
 
 
