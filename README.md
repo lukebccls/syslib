@@ -369,7 +369,8 @@ Journal Entry 12: Installing mySQL
    2. OPAC or public access catalog for patrons to retreive the information
    3. The cataloging is the staff side of the ILS, while the OPAC is the patron side of the ILS
 - Next we went over security and setting up an account forthe cataloging department to use (since we cannot have anyone entering information in - it needs to be password protected)
-- ```2. <B>Creating an OPAC</B>```
+- We are setting up a user called libcat
+- ```sudo htpasswd -c /etc/apache2/.htpasswd libcat```
 - ```sudo nano /etc/apache2/apache2.conf```
 - Next grant permissions and change 'None' to 'All' for our LibCat user
 -     <Directory /var/www/>
