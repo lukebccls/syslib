@@ -1,6 +1,8 @@
 [Go to WordPress Project](#Wordpress-Project)
+
 [Go to LAMP Stack](#LAMP-Stack)
 
+[Go to Documentation of OPAC and Cataloging Module](#Documentation-of-OPAC-and-Cataloging-Module)
 
 Journal Entry 1: Module 1 - Introduction Lecture
 ---
@@ -343,6 +345,8 @@ Journal Entry 12: Installing mySQL
 19.     DB_NAME DB_USER DB_PASSWORD
 20. Next we ran the install from the website after changing the directory and renaming
 21. http://34.118.144.131/wordpress/
+
+## Documentation of OPAC and Cataloging Module
 
 
 
