@@ -322,7 +322,26 @@ Journal Entry 12: Installing mySQL
 1. As always: update and upgrade
 2. Place && between commands to run them one after the other (all in one command).
 3.     sudo apt update -y && sudo apt full-upgrade -y
-4. 
+4. Next check version of PHP and mySQL are compatible with the current version of WordPress
+5.     php --version  mySQL --version
+6. Next we needed to install a bunch of things to ensure WordPress can rup properly
+7.     sudo apt install php-curl php-xml php-imagick php-mbstring php-zip php-intl
+8. Restart Apache & SQL
+9.     sudo systemctl restart apache2 && sudo systemctl restart mysql
+10. Next we want to install WordPress in the following directory
+11.     var/www/html
+12. Use the following command to get the link from WordPress
+13.     sudo wget https://wordpress.org/latest.zip
+14. Then unzip the program
+15. Next we want to create a database and a user
+16.     create user 'wordpress'@'localhost' identified by 'enter password';
+        create database wordpress;
+        grant all privileges on wordpress.* to 'wordpress'@'localhost';
+17. Just like we did with the OPAC PHP file we need to update the WordPress config file to have our new: a) database b) username c) password
+18. Edit
+19.     DB_NAME DB_USER DB_PASSWORD
+20. Next we ran the install from the website after changing the directory and renaming
+21. http://34.118.144.131/wordpress/
 
 
 
