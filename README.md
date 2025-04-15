@@ -311,8 +311,13 @@ Journal Entry 12: Installing mySQL
 43. <ins>Now SQL and PHP can interact!</ins>
 
 ## WordPress Project
-1. Wordpress background
-2. 
+----
+<b>Background on WordPress</b>
+1. Wordpress is a free open source content management system (essentially a website). WordPress is a hosting solution, with paid tiers, but the non-profit foundation wordpress.org provides the platform
+2. Since it is widely used platform to run a large percentage of the internet, it is important to take security precautions
+3. WordPress is popular in the library world, because it is simple and cost-effective
+
+
 
 
 
