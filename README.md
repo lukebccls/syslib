@@ -348,11 +348,41 @@ Journal Entry 12: Installing mySQL
 
 ## Documentation of OPAC and Cataloging Module
 
-1. Database management / SQL is important foundation needed to build an OPAC and a cataloging module
-- Using ```INSERT``` commands can update tables
-- Querying via ```SELECT, JOIN, WHERE, ORDER_BY, GROUP_BY``` can manipulate the data and retrieve it organized in specific ways
- - The ```JOIN``` command is especially important since a Database will generally have many tables
+1. <B>Database management / SQL</B>
 
+- Understanding SQL and how a relational database works is an important foundation needed to build an OPAC and a cataloging module. All the data that catalogers add to the OPAC needs to be in a database. 
+ - Using ```INSERT``` commands can update tables in the database when catalogers add new records to the collection - this will be used to update the table in the database using PHP
+ - Querying via ```SELECT, JOIN, WHERE, ORDER_BY, GROUP_BY``` can manipulate the data and retrieve it organized in specific ways - this will determine the output and how it looks for patrons using the OPAC
+ - The ```JOIN``` command is especially important since a database will generally have many tables
+
+2. <B>Creating an OPAC</B>
+
+- As noted above, the database is the core of any OPAC. PHP embeded in CSS/HTML can enter information into the the database and also retreive information
+ - An HTML form is where a user can enter information on the webpage (their search criteria)
+ - PHP Search script is where the results will be returned based on what the user enters
+ - This is essentially running a SQL query on demand and returning data from the tables on the Database that is organized in a specific way
+
+2. <B>Creating a Cataloging Module</B>
+- The cataloging module is the other side of the coin from the OPAC
+- For an ILS to function it needs 2 things:
+   1. Cataloging to enter information into the database
+   2. OPAC or public access catalog for patrons to retreive the information
+   3. The cataloging is the staff side of the ILS, while the OPAC is the patron side of the ILS
+- Next we went over security and setting up an account forthe cataloging department to use (since we cannot have anyone entering information in - it needs to be password protected)
+- ```2. <B>Creating an OPAC</B>```
+- ```sudo nano /etc/apache2/apache2.conf```
+- Next grant permissions and change 'None' to 'All' for our LibCat user
+-     <Directory /var/www/>
+      Options Indexes FollowSymLinks
+      AllowOverride None
+      Require all granted
+      </Directory>``` 
+- Change the cataloging directory
+- Add the following to .htaccess
+-     AuthType Basic
+      AuthName "Authorization Required"
+      AuthUserFile /etc/apache2/.htpasswd
+      Require valid-user
 
 
 
