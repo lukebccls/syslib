@@ -174,7 +174,7 @@ Journal Entry 9: Library Search
   4. will show the whole bib. record
 
 
-##LAMP STACK
+## LAMP Stack
 
 Linux - Operating System  
 
