@@ -311,12 +311,18 @@ Journal Entry 12: Installing mySQL
 43. <ins>Now SQL and PHP can interact!</ins>
 
 ## WordPress Project
-----
+
 <b>Background on WordPress</b>
 1. Wordpress is a free open source content management system (essentially a website). WordPress is a hosting solution, with paid tiers, but the non-profit foundation wordpress.org provides the platform
 2. Since it is widely used platform to run a large percentage of the internet, it is important to take security precautions
 3. WordPress is popular in the library world, because it is simple and cost-effective
 
+
+<b>WordPress Install Steps</b>
+1. As always: update and upgrade
+2. Place && between commands to run them one after the other (all in one command).
+3.     sudo apt update -y && sudo apt full-upgrade -y
+4. 
 
 
 
