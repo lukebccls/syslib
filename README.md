@@ -1,4 +1,5 @@
 [Go to WordPress Project](#Wordpress-Project)
+[Go to LAMP Stack](#LAMP-Stack)
 
 
 Journal Entry 1: Module 1 - Introduction Lecture
@@ -173,8 +174,8 @@ Journal Entry 9: Library Search
   4. will show the whole bib. record
 
 
-LAMP STACK
----
+##LAMP STACK
+
 Linux - Operating System  
 
 Apache - Web Server  
