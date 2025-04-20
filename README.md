@@ -1,3 +1,5 @@
+[Go to WordPress Project](#Omeka-Project)
+
 [Go to WordPress Project](#Wordpress-Project)
 
 [Go to LAMP Stack](#LAMP-Stack)
@@ -386,6 +388,7 @@ Journal Entry 12: Installing mySQL
       Require valid-user
 - We can then change ownership and with ```chown``` and ```chmod``` commands
 
+## Omeka Project
 
 
 
