@@ -1,4 +1,4 @@
-[Go to WordPress Project](#Omeka-Project)
+[Go to Omeka Project](#Omeka-Project)
 
 [Go to WordPress Project](#Wordpress-Project)
 
