@@ -396,12 +396,32 @@ Journal Entry 12: Installing mySQL
 - To install Omeka we will use what we learned in previous modules, particularly, mySQL and WordPress.
 
 1. First, update and upgrade the system ```sudo apt update && sudo apt upgrade -y```
+
 2. Next we need to check the version of mySQL and Apache2 to make sure it will work with Omeka ```mysql --version``` and ```apache2 --version```
+
 3. The next step is to create a database and user in mySQL and grant them all the permissions
 -     sudo mysql u root -p
 -     CREATE DATABASE omeka;
 -     CREATE USER 'omekauser'@'localhost' IDENTIFIED BY 'password';
 -     GRANT ALL PRIVILEGES ON omeka.* TO 'omekauser'@'localhost';
+
+4. Now that the mySQL part is done, download Omeka using the ```wget``` command
+-      cd /var/www/html
+-      sudo wget https://omeka.org/files/omeka-classic-3.1.2.zip
+-      sudo unzip omeka-classic-3.1.2.zip
+
+5. Now rename the directory and change the ownership of all files in the directory
+-     sudo mv omeka-classic /var/www/html/omeka
+-     sudo chown -R www-data:www-data /var/www/html/omeka
+
+6. Finally we need to edit the ```db.ini``` file and set the values to our username, password and database
+-      sudo nano /var/www/html/omeka.db.ini
+-      host="localhost"
+-      username="omekauser"
+-      password="xxxxx"
+-      dbname="omeka"
+
+7. Next we can login to the dashboard and set up the remainder of the settings there
 
 
 
