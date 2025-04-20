@@ -390,6 +390,23 @@ Journal Entry 12: Installing mySQL
 
 ## Omeka Project
 
+- Omeka is a free open-source web publishing platform that can be used to display content and allow users to upload and manage the content
+- Used by libraries, museums and archives
+- Omeka uses the Dublin Core meta data standard
+- To install Omeka we will use what we learned in previous modules, particularly, mySQL and WordPress.
+
+1. First, update and upgrade the system ```sudo apt update && sudo apt upgrade -y```
+2. Next we need to check the version of mySQL and Apache2 to make sure it will work with Omeka ```mysql --version``` and ```apache2 --version```
+3. The next step is to create a database and user in mySQL and grant them all the permissions
+-     sudo mysql u root -p
+-     CREATE DATABASE omeka;
+-     CREATE USER 'omekauser'@'localhost' IDENTIFIED BY 'password';
+-     GRANT ALL PRIVILEGES ON omeka.* TO 'omekauser'@'localhost';
+
+
+
+
+
 
 
 
