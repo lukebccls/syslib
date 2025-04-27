@@ -1,4 +1,4 @@
-[Go to Koh Project](#Koha-Project)
+[Go to Koha Project](#Koha-Project)
 
 [Go to Omeka Project](#Omeka-Project)
 
