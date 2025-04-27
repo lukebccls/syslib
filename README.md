@@ -428,6 +428,59 @@ Journal Entry 12: Installing mySQL
 
 ## Koha Project
 
+- Koha is an open-source Integrated Library System (ILS) and provides features such as an OPAC, circulation, item management, cataloging, managing due dates and fines, organizing patron information and more.
+- Being open-source Koha is highly customizable, but many users elect to use a company like ByWater to assist in managing it as all ILS are very complex.
+- Currently 4,484 libraries use Koha and there is a thriving developer ecosystem
+- Evergreen is another open-source ILS
+- Next generation ILSs like these have econtent connections, while 1st gen ILSs typically only focused on tracking physical materials
+- Below are the steps to get Koha installed:
+
+<b>Create a new VM to host Koha</b>
+1. Create a new VM on Google Cloud with more CPU/RAM/Disk space (Koha uses a lot of resources given that it is a fully functional ILS).
+2. Create a firewall rule allow traffic on port ```8080```
+3. Then make sure new VM is up to date: ```sudo apt update && upgrade -y```
+4. Next free up some disk space: ```sudo apt autoremove -y && sudo apt clean```
+5. Next we install some tools to create digital signatures and encrypt data: ```sudo apt install gnupg2 apt-transport-https```
+6. Finally, reboot the VM ```sudo reboot now```
+
+<b>Add Koha Repository</b>
+1. Use the ```sudo su``` command to switch to the root user since most of the following needs those permissions
+
+<b>Install Koha</b>
+1. Update and sync the new repository to the remote Koha repository ```apt update```
+2. Show package information and install ```apt install koha-common```
+3. This will take a few minutes since it is a large install
+
+<b>Configure Koha</b>
+1. Create a backup of the ```koha-sityes.conf```
+2. Open the file ```nano /etc/koha/koha-sites.conf```
+3. Change from Port 80 to Port 8080
+4. Install mySQL with the mysql admin user: ```apt install mysql-server```  and ```mysqladmin -u root password xxxx```
+5. Next we need to enable URL rewritting and CGI functionality
+6. Restart Apache2
+7. Create a database in mySQL for Koha: ```koha-create --create-db bibliolib```
+8. Tell Apache2 to listen on port 8080: ```nano /etc/apache2/ports.conf``` and add port 8080 under port 80
+9. Check to make sure the config is correct and restart Apache2
+10. Next disable the default Apache2 setup and enable traffic compression using ```defalte``` to the site
+
+<b>Koha Web Installer</b>
+1. Get the admin Koha username and password from this file: ```nano /etc/koha/sites/bibliolib/koha-conf.xml```
+2. Line 252 <user>
+3. Go to the browser and access the Koha web-based installer to complete the rest of the project
+4. There are many ways to set things up, but use the default settings for now
+
+<b>Public OPAC</b>
+1. In the settings under Administration, go to System Preferences > OPAC
+2. In the ```OPACBaseURL``` field enter the public IP address of the Koha VM
+3. Then create patron acccounts, bib records and test circ functions
+
+
+
+
+
+
+
+
 
 
 
