@@ -1,3 +1,5 @@
+[Go to Koh Project](#Koha-Project)
+
 [Go to Omeka Project](#Omeka-Project)
 
 [Go to WordPress Project](#Wordpress-Project)
@@ -424,7 +426,7 @@ Journal Entry 12: Installing mySQL
 7. Next we can login to the dashboard and set up the remainder of the settings there
 
 
-
+## Koha Project
 
 
 
